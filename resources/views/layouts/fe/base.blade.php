@@ -7,7 +7,8 @@
 
     <title>{{ config('app.name2', 'Việt nam đó đây') }}</title>
     <link rel="icon" type="image/png" href="{{ asset('fe') }}/img/icon/bavel.png">
-
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/app.js') }}" defer></script>
     @include('layouts.fe.css')
 
 </head>

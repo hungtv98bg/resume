@@ -2,7 +2,11 @@
 @section('title', 'Home')
 
 @section('content')
-
+    <style type="text/css">
+        .navbar .navbar-item ul li a {
+            color: black !important;
+        }
+    </style>
     <!-- Section Header -->
     <section class="section-header">
         <div class="section-header-image">
@@ -160,9 +164,7 @@
             <div class="row">
                 <div class="col-video">
                     <video controls autoplay muted>
-                        <source
-                            src="{{ asset('fe') }}/img/vietnam.mp4"
-                            type="video/mp4">
+                        <source src="{{ asset('fe') }}/img/vietnam.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
@@ -179,7 +181,8 @@
                         </div>
                         <div class="col">
                             <a href="{{ asset('fe') }}/img/Gallery/26870845_1740142096076715_486825953067008000_n.jpg">
-                                <img src="{{ asset('fe') }}/img/Gallery/26870845_1740142096076715_486825953067008000_n.jpg">
+                                <img
+                                    src="{{ asset('fe') }}/img/Gallery/26870845_1740142096076715_486825953067008000_n.jpg">
                                 <div class="overlay">
                                     <span class="ion-search"></span>
                                 </div>
@@ -187,15 +190,17 @@
                         </div>
                         <div class="col" onclick="window.location.href='gallery.html'">
                             <a href="{{ asset('fe') }}/img/Gallery/27880266_1798970387070331_5621832064107020288_n.jpg">
-                                <img src="{{ asset('fe') }}/img/Gallery/27880266_1798970387070331_5621832064107020288_n.jpg">
+                                <img
+                                    src="{{ asset('fe') }}/img/Gallery/27880266_1798970387070331_5621832064107020288_n.jpg">
                                 <div class="overlay">
                                     <span class="ion-search"></span>
                                 </div>
                             </a>
                         </div>
                         <div class="col" onclick="window.location.href='gallery.html'">
-                           <a href="{{ asset('fe') }}/img/Gallery/29415561_163922580940067_2417069708558729216_n.jpg">
-                            <img src="{{ asset('fe') }}/img/Gallery/29415561_163922580940067_2417069708558729216_n.jpg">
+                            <a href="{{ asset('fe') }}/img/Gallery/29415561_163922580940067_2417069708558729216_n.jpg">
+                                <img
+                                    src="{{ asset('fe') }}/img/Gallery/29415561_163922580940067_2417069708558729216_n.jpg">
                                 <div class="overlay">
                                     <span class="ion-search"></span>
                                 </div>
